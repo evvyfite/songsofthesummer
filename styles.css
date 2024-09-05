@@ -1,0 +1,68 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffd0e0; /* Dusty Rose (light pink) */
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #ff69b4; /* Hot Pink */
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+main {
+    padding: 1rem;
+}
+
+.intro {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    background-color: #e69af1; /* Light Purple */
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.song-links {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.song-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.song-links li {
+    margin-bottom: 0.5rem;
+}
